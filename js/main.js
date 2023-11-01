@@ -1,10 +1,14 @@
     const emails = ["fabio@gmail.com", "paolo@gmail.com", "marco@gmail.com", "abdu@gmail.com"]
-    
     const checkBtm = document.getElementById("check")
-
-    checkBtm = addEventListener("click", function())
     
-    alert = emails.value;
+    console.log(emails.includes('2'));
+    
+    checkBtm = addEventListener("click", function() {
+
+      const mail = document.getElementById("mail").value
+        console.log( emails[mail] );
+    });
+    
 
     
 
